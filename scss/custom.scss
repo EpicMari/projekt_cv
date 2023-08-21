@@ -115,3 +115,24 @@ img {
 .desc {
     color: var(--white);
 }
+
+.item {
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.square {
+    background-color: var(--orange);
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.date {
+    width: 25%;
+}
+
+.item-desc {
+    width: 55%;
+}
