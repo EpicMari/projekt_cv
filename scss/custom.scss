@@ -35,7 +35,83 @@
     padding: 30px 0 30px 200px;
 }
 
-.img {
+img {
     z-index: 1;
     position: relative;
+}
+
+.left-col-colors {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.right-col-colors {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.img-hero {
+    margin: 45px 0 0 55px;
+    border-radius: 50%;
+    border: 15px solid #000;
+}
+
+.col-right {
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-border {
+    border: 5px solid orange;
+    padding: 15px 20px;
+    width: 220px;
+    text-align: center;
+}
+
+.skills {
+    width: 75%;
+    margin: 20px 0;
+}
+
+.progress {
+    width: 100%;
+    border: 3px solid orange;
+    height: 25px;
+    margin: 10px 0;
+}
+
+.progress.illustrator::after,
+.progress.photoshop::after,
+.progress.indesign::after,
+.progress.msword::after {
+    content: "";
+    display: block;
+    height: 100%;
+    background-color: var(--orange);
+}
+.progress.illustrator::after {
+    width: 75%;
+}
+
+.progress.photoshop::after {
+    width: 85%;
+}
+
+.progress.indesign::after {
+    width: 70%;
+}
+
+.progress.msword::after {
+    width: 95%;
+}
+
+.orange-bg {
+    background-color: var(--orange);
+    text-align: right;
+    width: 85%;
+    padding: 12px 35px 12px 0;
+}
+
+.desc {
+    color: var(--white);
 }
